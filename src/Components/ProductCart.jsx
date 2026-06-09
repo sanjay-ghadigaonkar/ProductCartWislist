@@ -50,30 +50,19 @@ const ProductCart = ({ ShoesItem }) => {
             alt="Shoes"
           />
         </figure>
-        <div className="card-body flex md:justify-between lg:justify-between  2xl:justify-between items-center">
-          <h2 className="card-title">
-            <p className=" font-bold text-3xl "> {ShoesItem.productName} </p>
-            <div className="badge badge-secondary text-2xl font-bold ">
+        <div className="flex justify-between items-center mt-3 px-1">
+          <div>
+            <p className="font-bold text-3xl">{ShoesItem.productName}</p>
+            <div className="badge badge-secondary text-2xl font-bold mt-1">
               Price: {ShoesItem.price}₹
             </div>
-          </h2>
-
-          <div className="card-actions justify-end">
-            {/* <div className="w-30 border-2 flex justify-between px-3 font-extrabold items-center text-3xl rounded-md mt-2"> 
-        <button onClick={increaseCount}>+</button>
-        {stockCount}
-        <button onClick={decreaseCount}>-</button>
-      </div> */}
-            <div className="badge badge-outline">
-              <button
-                // disabled={stockCount === 0}
-                onClick={handleWishlisted}
-                className=" border-2 font-bold bg-blue-600 text-white w-30 p-3 my-1   rounded-md"
-              >
-                Wishlist
-              </button>
-            </div>
           </div>
+          <button
+            onClick={handleWishlisted}
+            className="border-2 font-bold bg-blue-600 text-white w-30 p-3 rounded-md"
+          >
+            Wishlist
+          </button>
         </div>
         {/* this loder is i use mye old weder app animation like a reuseble loading animation */}
         {isloding && (
