@@ -1,16 +1,28 @@
-# React + Vite
+# Day 1: E-Commerce Product Grid
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About This Project
 
-Currently, two official plugins are available:
+This is the first project of my 14-Day React Challenge. I built a responsive e-commerce product grid with a working "Add to Wishlist" feature to practice my React basics.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Key Features
 
-## React Compiler
+- Dynamic rendering of products using dummy data and the map() function.
+- A realistic loading state using JavaScript setTimeout.
+- An auto-dismissing popup notification when an item is added to the wishlist.
+- Clean and uniform UI using Tailwind CSS grid and object-cover for images.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React.js
+- Tailwind CSS
+- DaisyUI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## What I Learned
+
+I learned how to pass data using Props, manage local state, use nested timers for asynchronous UI updates, and fix CSS layout issues like z-index and absolute positioning.
+
+## How to Run
+
+1. Clone the repo.
+2. Run npm install.
+3. Run npm run dev (or npm start).
