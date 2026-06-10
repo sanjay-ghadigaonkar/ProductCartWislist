@@ -34,7 +34,7 @@ const App = () => {
     },
     {
       id: 5,
-      productName: "New Balance 574",
+      productName: "Reebook Shoes",
       price: 6000,
       image:
         "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500&q=80",
